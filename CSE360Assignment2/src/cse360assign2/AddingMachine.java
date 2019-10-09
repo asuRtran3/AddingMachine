@@ -70,10 +70,11 @@ public class AddingMachine {
     }
     
     /**
-     * Clear method to clear the AddingMachine.
+     * Clear method to clear the operation string(the history) and the total
      */
     public void clear() {
-    	
+    	operation = "History of transactions is cleared";
+    	total = 0;
     }
   
 }
